@@ -24,5 +24,4 @@ public class HelloEntity {
 		System.out.print(HelloApp.getSpacerFeed() + count);
 		this.count = count;
 	}
-
 }
