@@ -46,12 +46,13 @@ public class HelloSolution implements Solution<HardSoftScore>, Serializable {
 	}
 
 	public HardSoftScore getScore() {
-		if(null==HelloApp.scoreDirector){
-			System.out.println("WOOPS YOU SHOULD EXPECT SOME ISSUES HERE");
-		}
-		HardSoftScore hardSoftScore = (HardSoftScore)HelloApp.scoreDirector.calculateScore();
-		System.out.println("SCORE "+ hardSoftScore.toString() );
-		return hardSoftScore;
+		return this.score;
+		// if(null==HelloApp.scoreDirector){
+		// 	System.out.println("WOOPS YOU SHOULD EXPECT SOME ISSUES HERE");
+		// }
+		// HardSoftScore hardSoftScore = (HardSoftScore)HelloApp.scoreDirector.calculateScore();
+		// System.out.println("SCORE "+ hardSoftScore.toString() );
+		// return hardSoftScore;
 	}
 
 	public void setScore(HardSoftScore arg0) {
