@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/app/NurseRosteringApp.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/app/HelloApp.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/app/NurseRosteringBenchmarkApp.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/move/NurseRosteringMoveHelper.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/move/EmployeeMultipleChangeMove.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/move/factory/ShiftAssignmentPillarPartSwapMoveFactory.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/drools/EmployeeWeekendSequence.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/drools/EmployeeFreeSequence.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/drools/EmployeeConsecutiveAssignmentStart.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/drools/EmployeeConsecutiveWeekendAssignmentEnd.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/drools/EmployeeWorkSequence.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/drools/EmployeeConsecutiveAssignmentEnd.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/solver/drools/EmployeeConsecutiveWeekendAssignmentStart.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/swingui/EmployeePanel.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/swingui/NurseRosteringPanel.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/persistence/NurseRosteringImporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/persistence/NurseRosteringExporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/Skill.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/contract/Contract.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/contract/MinMaxContractLine.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/contract/ContractLineType.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/contract/ContractLine.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/contract/BooleanContractLine.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/contract/PatternContractLine.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/NurseRosterParametrization.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/WeekendDefinition.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/ShiftDate.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/ShiftAssignment.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/SkillProficiency.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/ShiftTypeSkillRequirement.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/solver/ShiftAssignmentDifficultyComparator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/solver/ShiftAssignmentPinningFilter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/solver/EmployeeStrengthComparator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/solver/MovableShiftAssignmentSelectionFilter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/ShiftType.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/Shift.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/request/DayOnRequest.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/request/ShiftOffRequest.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/request/ShiftOnRequest.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/request/DayOffRequest.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/pattern/WorkBeforeFreeSequencePattern.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/pattern/Pattern.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/pattern/FreeBefore2DaysWithAWorkDayPattern.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/pattern/ShiftType3DaysPattern.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/pattern/ShiftType2DaysPattern.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/NurseRoster.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/nurserostering/domain/Employee.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/app/CommonApp.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/app/LoggingMain.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/app/CommonBenchmarkApp.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/business/AlphaNumericStringComparator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/business/ExtensionFileFilter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/business/SolutionBusiness.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/business/ProblemFileComparator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/solver/drools/functions/LoadBalanceByCountAccumulateFunction.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/solver/drools/functions/LoadBalanceAccumulateFunction.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/ConstraintMatchesDialog.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/latitudelongitude/LatitudeLongitudeTranslator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/components/Labeled.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/components/LabeledComboBoxRenderer.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/SolutionPanel.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/SolverAndPersistenceFrame.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/OpenBrowserAction.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/CommonIcons.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/timetable/TimeTableLayoutConstraints.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/timetable/TimeTablePanel.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/swingui/timetable/TimeTableLayout.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractSolutionImporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractXlsxSolutionFileIO.java">
+<error line="104" column="32" severity="warning" message="&apos;&gt;&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+<error line="376" column="32" severity="warning" message="&apos;&gt;&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"/>
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractTxtSolutionImporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractXmlSolutionExporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractXlsxSolutionImporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractPngSolutionImporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/SolutionConverter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/generator/LocationDataGenerator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/generator/StringDataGenerator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/generator/ProbabilisticDataGenerator.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractTxtSolutionExporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractXmlSolutionImporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/persistence/AbstractSolutionExporter.java">
+</file>
+<file name="/Users/admin/git/optaplannerschedules/src/main/java/org/optaplanner/examples/common/domain/AbstractPersistable.java">
+</file>
+</checkstyle>
